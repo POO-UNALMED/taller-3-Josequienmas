@@ -3,29 +3,29 @@ public class Control {
 	
 	private TV televisor;
 	
-	void enlazar(TV televisor) {
+	public void enlazar(TV televisor) {
 		this.televisor = televisor;
 		this.televisor.setControl(this);
 	}
-	void turnOn() {
+	public void turnOn() {
 		this.televisor.turnOn();
 	}
-	void turnOff() {
+	public void turnOff() {
 		this.televisor.turnOff();
 	}
-	void canalUp() {
+	public void canalUp() {
 		this.televisor.canalUp();
 	}
-	void canalDown() {
+	public void canalDown() {
 		this.televisor.canalDown();
 	}
-	void volumenUp() {
+	public void volumenUp() {
 		this.televisor.volumenUp();
 	}
-	void volumenDown() {
+	public void volumenDown() {
 		this.televisor.volumenDown();
 	}
-	void setCanal(int canalNuevo) {
+	public void setCanal(int canalNuevo) {
 		this.televisor.setCanal(canalNuevo);
 	}
 	
