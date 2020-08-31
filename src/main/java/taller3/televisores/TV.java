@@ -46,8 +46,11 @@ public class TV {
 			this.canal = canalNuevo;
 		}	
 	}
-	public int getNumTv() {
+	public int getNumTV() {
 		return (this.numTV);
+	}
+	public void setNumTV(int numeroNuevo) {
+		this.numTV = numeroNuevo;
 	}
 	public boolean turnOn() {
 		this.estado = true;
