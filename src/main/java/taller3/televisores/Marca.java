@@ -3,13 +3,13 @@ public class Marca {
 	
 	private String nombre;
 	
-	Marca(String nombre){
+	public Marca(String nombre){
 		this.nombre = nombre;
 	}
-	String getNombre() {
+	public String getNombre() {
 		return (this.nombre);
 	}
-	void setNombre(String nombreNuevo) {
+	public void setNombre(String nombreNuevo) {
 		this.nombre = nombreNuevo;
 	}
 
